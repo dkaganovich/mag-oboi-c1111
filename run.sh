@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 
 if [ "$#" -lt 2 ]; then
-	echo "Missing argument: usage: run.sh file://local_path_input file://local_path_output"
+	echo "Missing argument: usage: run.sh LOCAL_PATH_INPUT LOCAL_PATH_OUTPUT"
 	exit 1
 fi
 
